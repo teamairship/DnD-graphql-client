@@ -1,20 +1,3 @@
 .characters-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex: 1;
-}
-
-.character {
-  border: 1px solid white;
-  padding: 1em;
-  min-width: 25%;
-  margin: 1em;
-}
-
-@media screen and (min-height:900px) {
-  .character {
-    min-width: 100%;
-    border: none;
-  }
+  
 }
