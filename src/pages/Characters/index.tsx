@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { useQuery, gql } from '@apollo/client';
 import './Characters.css';
 import CharacterBox from '../../components/CharacterBox';
@@ -31,7 +31,7 @@ const GET_CHARACTERS = gql`
   }
 `;
 
-const CharacterPage = () => {
+const CharacterPage: FC<{}> = () => {
   const { loading, error, data } = useQuery<{characters: [Character]}>(GET_CHARACTERS);
 
   if (loading) return <p>Loading...</p>;
