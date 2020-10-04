@@ -28,7 +28,6 @@ const CREATE_CHARACTER = gql`
 
 #### Acceptance Criteria
 
-- [ ] A user should use a form to submit the required data to create a new character.
-- [ ] A user should see an error message if their form data is incorrect upon submission.
+- [ ] A user should be able to toggle a **form-modal** from the characters page.
+- [ ] A user should be able to submit the required data to create a new character.
 - [ ] A user should see their newly created character in the list of Characters on submission.
-- [ ] BONUS: A user should see a prettier version of the characters page (CSS)
